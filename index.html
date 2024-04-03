@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <span id="burguer" class="material-icons" onclick="clickmenu()">menu</span >
+    <h1>Meu site</h1>
+  <menu id="itens">
+   <ul>
+    <li><a href="#">opção 1</a></li>
+   <li><a href="#">opcão 2</a></li>
+   <li><a href="#">opcção 3</a></li>
+   <li><a href="#">opção 4</a></li>
+   <li><a href="#">opção 5</a></li>
+   </ul>
+  </menu>
+    </header>
+    <main>
+        <article>
+         <h2>testando media queries</h2>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea suscipit officiis minima ducimus magni odit sed asperiores natus tempora cupiditate exercitationem corrupti in dolorum voluptatum commodi, harum, aspernatur iure! Esse! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error tenetur iure minus quo veritatis alias aut ipsum optio eos, amet et doloribus cum repudiandae obcaecati temporibus nesciunt incidunt molestias illum!Lorem 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo similique soluta sunt ea quod modi consequatur illum suscipit, unde ab odit rerum exercitationem sit officia. Ea consequuntur animi odio Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint consectetur cupiditate qui architecto accusamus laboriosam sed itaque ullam numquam fugiat. Est possimus minima earum eligendi? Vero dignissimos pariatur ad similique!
+         </p><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, eaque vero! Earum soluta molestiae praesentium iure amet? Dolores amet laborum ad recusandae, pariatur, quae neque dicta dignissimos, minus eius quibusdam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta dolorem obcaecati tenetur non, accusamus esse, voluptate corrupti dolorum deserunt id ea exercitationem minus iusto aut, impedit nobis ab voluptas eligendi.</p>
+        </article>
+    </main>
+</body>
+</html>
+<script>
+    function clickmenu() {
+    if(itens.style.display == 'block'){
+        itens.style.display = 'none'
+    }else{
+        itens.style.display ='block'
+    }
+    }
+</script>
